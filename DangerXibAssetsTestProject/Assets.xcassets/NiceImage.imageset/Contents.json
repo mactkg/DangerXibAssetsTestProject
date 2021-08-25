@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "00100lrPORTRAIT_00100_BURST20200901194024289_COVER-2.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "00100lrPORTRAIT_00100_BURST20200901194024289_COVER-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "00100lrPORTRAIT_00100_BURST20200901194024289_COVER.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

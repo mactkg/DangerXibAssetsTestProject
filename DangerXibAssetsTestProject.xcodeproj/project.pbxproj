@@ -16,6 +16,7 @@
 		218669F626D6932B004903FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218669F426D6932B004903FC /* LaunchScreen.storyboard */; };
 		21866A0126D6932B004903FC /* DangerXibAssetsTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21866A0026D6932B004903FC /* DangerXibAssetsTestProjectTests.swift */; };
 		21866A0C26D6932B004903FC /* DangerXibAssetsTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21866A0B26D6932B004903FC /* DangerXibAssetsTestProjectUITests.swift */; };
+		21866A1A26D6933F004903FC /* FooBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21866A1926D6933F004903FC /* FooBarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		21866A0726D6932B004903FC /* DangerXibAssetsTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DangerXibAssetsTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21866A0B26D6932B004903FC /* DangerXibAssetsTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerXibAssetsTestProjectUITests.swift; sourceTree = "<group>"; };
 		21866A0D26D6932B004903FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21866A1926D6933F004903FC /* FooBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				218669F426D6932B004903FC /* LaunchScreen.storyboard */,
 				218669F726D6932B004903FC /* Info.plist */,
 				218669EF26D69327004903FC /* DangerXibAssetsTestProject.xcdatamodeld */,
+				21866A1926D6933F004903FC /* FooBarView.xib */,
 			);
 			path = DangerXibAssetsTestProject;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				218669F626D6932B004903FC /* LaunchScreen.storyboard in Resources */,
 				218669F326D6932B004903FC /* Assets.xcassets in Resources */,
 				218669EE26D69327004903FC /* Main.storyboard in Resources */,
+				21866A1A26D6933F004903FC /* FooBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
