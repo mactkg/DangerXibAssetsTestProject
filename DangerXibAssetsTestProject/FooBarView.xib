@@ -14,26 +14,19 @@
             <rect key="frame" x="0.0" y="0.0" width="479" height="536"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="NiceImage" translatesAutoresizingMaskIntoConstraints="NO" id="h1B-5G-qms">
-                    <rect key="frame" x="119.5" y="108" width="240" height="320"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="240" id="5fV-Mb-NwR"/>
-                        <constraint firstAttribute="height" constant="320" id="cDP-T3-kyu"/>
-                    </constraints>
-                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCq-7r-Vd2">
+                    <rect key="frame" x="87" y="183" width="84" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="GreatButton"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <constraints>
-                <constraint firstItem="h1B-5G-qms" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5iX-qh-8yr"/>
-                <constraint firstItem="h1B-5G-qms" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tej-Di-2zk"/>
-            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="269" y="35"/>
         </view>
     </objects>
     <resources>
-        <image name="NiceImage" width="240" height="320"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
