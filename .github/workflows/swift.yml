@@ -1,0 +1,12 @@
+name: Swift
+
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Danger Swift
+      uses: danger/swift@2.0.3
